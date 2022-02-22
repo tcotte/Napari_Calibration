@@ -6,7 +6,7 @@ def get_hypothenuse(x, y):
     return x ** 2 + y ** 2
 
 
-def pixel_per_cm(px, cm):
+def pixel_per_mm(px, cm):
     return px / cm
 
 
@@ -18,7 +18,7 @@ def get_str_length(len, ratio):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # print(get_hypothenuse())
-    ratio = pixel_per_cm(1813.06, 7)
+    ratio = pixel_per_mm(1813.06, 7)
 
     img = cv2.imread("img/carre.png")
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
