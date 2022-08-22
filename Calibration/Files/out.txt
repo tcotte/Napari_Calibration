@@ -1,2 +1,0 @@
-Millimeters : 20
-Pixels : 497.08567779832305
