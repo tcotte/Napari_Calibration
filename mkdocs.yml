@@ -1,0 +1,11 @@
+site_name: napari-calibration
+site_description: Plug in which enables to make camera calibration
+site_author: Tristan Cotte
+
+theme: readthedocs
+
+
+repo_url: https://github.com/tcotte/napari-calibration
+
+pages:
+- Home: index.md
